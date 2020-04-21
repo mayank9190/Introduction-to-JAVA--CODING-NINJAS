@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+		String str= s.next();
+		char b= str.charAt(0);
+		//int c= b;
+		//System.out.println(b);
+		
+		if(b>=65 && b<=90 ) {
+			System.out.println(1);
+		}
+		 
+		if(b>=97 && b<=122 ) {
+			System.out.println(0);
+		}
+		 
+		if(b>=32 && b<=64 ) {
+			System.out.println(-1);
+		}
+	
+		
+	}
+}
