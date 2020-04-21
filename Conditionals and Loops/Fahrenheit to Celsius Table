@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Solution {
+
+
+	public static void main(String[] args) {
+		
+			Scanner s = new Scanner(System.in);
+		int fs = s.nextInt();
+		int fe = s.nextInt();
+		int w = s.nextInt();
+		int cel;
+		while(fs<fe) {
+	       
+			cel = (5*(fs-32))/9;
+			System.out.print(fs + "\t");
+			System.out.println(cel);
+			 fs= fs+w;
+			
+			
+		}
+	
+		
+	}
+
+}
